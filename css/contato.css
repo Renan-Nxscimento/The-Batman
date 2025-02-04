@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: 300px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+
+.menumobile {
+    display: flex;
+    flex-direction: column;
+    display: none;
+    width:30px;
+    height:30px;
+    opacity: 0.8;
+    padding: 10px;
+    align-self: center;
+    padding-bottom: 0px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.menumobile:hover {
+    opacity: 1;
+    transition: .3s;
+}
+
+.mm-line {
+    height: 4px;
+    width: 100%;
+    background-color: red;
+    border-radius: 2px;
+}
+
+.close-menu{
+    font-family: "Teko", sans-serif;
+    font-size: 18px;
+    color: black;
+    background-color: transparent;
+    align-self: center;
+    justify-self: center;
+    height: 30px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.invisible{
+    display: none;
+}
+
+.active-drop{
+    width: 170px;
+    background-color: red;
+    border-radius: 5px;
+    padding: 0px;
+    position: relative;
+    right: 0px;
+}
+
+.diver-down {
+    list-style: none;
+    background: black;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    margin: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    width: 130px;
+    opacity: 0;
+    display: none;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.diver-down li {
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #222222;
+    font-weight: bold;
+    transition: .3s;
+    text-align: center;
+    font-family: "Teko", sans-serif;
+}
+
+.diver-down li:last-child {
+    margin-bottom: -2px;
+    border-bottom: none;
+}
+
+.diver-down li:hover {
+    color: red
+    ;
+}
+
+.open-diver {
+    display: block;
+    opacity: 1;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    margin-left: 200px;
+}
+
+.header a{
+    font-family: "Teko", sans-serif;
+    font-size: 23px;
+    color: aliceblue;
+    padding: 0;
+}
+
+.page:hover{
+    color: grey;
+    transition: 0.3s;
+}
+
+#logo {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner {
+    width: 100%;
+    margin: auto;
+}
+
+.banner img {
+        width: 100%;
+}
+
+.main-container {
+    display: flex;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Teko", sans-serif;
+    text-decoration: none;
+    height: 400px;
+}
+
+.contact ul{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-top: 20px;
+}
+
+.contact p {
+    font-size: 22px;
+    opacity: 0.85;
+    margin-top: 20px;
+}
+
+.contact-img {
+    margin-top: auto;
+    border: 3px solid red;
+    width: inherit;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(https://img.migalhas.com.br/gf_Base/empresas/miga/imagens/FBAFC5C650D7067AE37DB96D7F48656F03BC_atendente.JPG);
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.contact-img:hover{
+    transform: scale(1.02);
+}
+
+.visit-img {
+    margin-top: auto;
+    border: 3px solid red;
+    width: inherit;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/95/f2/d2/cinemark.jpg?w=1200&h=-1&s=1);
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.visit-img:hover{
+    transform: scale(1.02);
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+    font-family: "Teko", sans-serif;
+    margin-right: auto;
+}
+
+.f-inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+.f-input{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.f-input input {
+    width: 95%;
+    border: unset;
+    border-bottom: 1px solid #3a3a3a;
+    padding: 10px 5px;
+    transition: .3s;
+    font-family: "Teko", sans-serif;
+    font-size: 18px;
+}
+
+.f-input input:focus{
+    outline: none;
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+}
+
+.form-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+.f-text{
+    width: inherit;
+}
+
+.form-text textarea{
+    justify-self: center;
+    display: flex;
+    width: 94%;
+    height: 150px;
+    padding: 10px;
+    color: #FFF;
+    resize: none;
+    border: 1px solid #3a3a3a;
+    font-family: "Teko", sans-serif;
+    font-size: 18px;
+}
+
+.form-text textarea:focus{
+    color: #FFF;
+    outline: none;
+    border: 1px solid #FFF;
+}
+
+.form-btn {
+    margin-top: 20px;
+    justify-self: center;
+}
+
+.form-btn input{
+    height: 50px;
+    width: 400px;
+    background-color: red;
+    color: #FFF;
+    border-radius: 5px;
+    opacity: 0.9;
+    margin-top: 10px;
+    transition: 0.5s;
+    border: 2px solid rgb(172, 36, 36);
+}
+
+.form-btn input:hover {
+    opacity: 1;
+    transform: scale(1.01);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-btn input:active {
+    background-color: rgb(172, 36, 36);
+    transition: 0s;
+}
+
+footer {
+    color: #FFF;
+
+}
+
+footer span {
+    opacity: 0.8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+#disclaimer {
+    width: 30px;
+    opacity: 0.6;
+}
+
+.footer {
+    border-top: 1px solid #3a3a3a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+@media(max-width: 1300px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .contact{
+        margin-right: auto;
+    }
+
+    .form-container{
+        margin-left: auto;
+    }
+
+}
+
+@media(max-width: 620px){
+
+    h2{
+        font-size: 20px;
+    }
+
+    .main-list {
+        display: none;
+    }
+
+    .menumobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+     }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .contact{
+        width: 280px;
+    }
+
+    .contact-img{
+        margin-bottom: auto;
+    }
+
+    .contact p{
+        font-size: 18px;
+    }
+
+    .form-container{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .f-inputs{
+        justify-self: center;
+        align-self: center;
+        flex-direction: column;
+        max-width: 390px;
+    }
+
+    .f-input{
+        align-self: center;
+        width: 80%;
+    }
+
+    .form-item{
+        width: 100%;
+    }
+
+    .form-item input{
+        width: 100%;
+    }
+
+    .form-text{
+        align-self: center;
+        width: 350px;
+    }
+
+    .f-text textarea{
+        width: 320px;
+    }
+
+    .form-btn {
+        align-self: center;
+    }
+
+    nav {
+     margin: 0;
+     display: flex;
+    }
+
+      #fname{
+        height: 20px;
+      }
+
+      #lname{
+        height: 20px;
+      }
+
+      #email{
+        height: 20px;
+      }
+
+      #phone{
+        height: 20px;
+        margin-bottom: 20px;
+      }
+
+      .form-btn input{
+        width: 280px;
+      }
+} 
