@@ -186,39 +186,39 @@ dropdown.addEventListener('click', function() {
         })
 
         if( imgNumber === 1) {
-            document.querySelector('.fullscreenImage img').src = '/senorDeLaNoche/midias/gallery/bat10.jpg'
+            document.querySelector('.fullscreenImage img').src = 'midias/gallery/bat10.jpg'
         }
         if( imgNumber === 2) {
-            document.querySelector('.fullscreenImage img').src = '/senorDeLaNoche/midias/gallery/bat11.jpg'
+            document.querySelector('.fullscreenImage img').src = 'midias/gallery/bat11.jpg'
         }
         if( imgNumber === 3) {
-            document.querySelector('.fullscreenImage img').src = '/senorDeLaNoche/midias/gallery/bat8.jpg'
+            document.querySelector('.fullscreenImage img').src = 'midias/gallery/bat8.jpg'
         }
         if( imgNumber === 4) {
-            document.querySelector('.fullscreenImage img').src = '/senorDeLaNoche/midias/gallery/bat4.jpg'
+            document.querySelector('.fullscreenImage img').src = 'midias/gallery/bat4.jpg'
         }
         if( imgNumber === 5) {
-            document.querySelector('.fullscreenImage img').src = '/senorDeLaNoche/midias/gallery/bat5.jpg'
+            document.querySelector('.fullscreenImage img').src = 'midias/gallery/bat5.jpg'
         }
         if( imgNumber === 6) {
-            document.querySelector('.fullscreenImage img').src = '/senorDeLaNoche/midias/gallery/bat6.jpg'
+            document.querySelector('.fullscreenImage img').src = 'midias/gallery/bat6.jpg'
         }
         if( imgNumber === 7) {
-            document.querySelector('.fullscreenImage img').src = '/senorDeLaNoche/midias/gallery/bat7.jpg'
+            document.querySelector('.fullscreenImage img').src = 'midias/gallery/bat7.jpg'
         }
         if( imgNumber === 8) {
-            document.querySelector('.fullscreenImage img').src = '/senorDeLaNoche/midias/gallery/bat2.jpg'
+            document.querySelector('.fullscreenImage img').src = 'midias/gallery/bat2.jpg'
         }
         if( imgNumber === 9) {
-            document.querySelector('.fullscreenImage img').src = '/senorDeLaNoche/midias/gallery/bat12.jpeg'
+            document.querySelector('.fullscreenImage img').src = 'midias/gallery/bat12.jpeg'
         }
         if( imgNumber === 10) {
-            document.querySelector('.fullscreenImage img').src = '/senorDeLaNoche/midias/gallery/bat3.jpg'
+            document.querySelector('.fullscreenImage img').src = 'midias/gallery/bat3.jpg'
         }
         if( imgNumber === 11) {
-            document.querySelector('.fullscreenImage img').src = '/senorDeLaNoche/midias/gallery/bat1.jpg'
+            document.querySelector('.fullscreenImage img').src = 'midias/gallery/bat1.jpg'
         }
         if( imgNumber === 12) {
-            document.querySelector('.fullscreenImage img').src = '/senorDeLaNoche/midias/gallery/bat9.jpg'
+            document.querySelector('.fullscreenImage img').src = 'midias/gallery/bat9.jpg'
         }
     }
