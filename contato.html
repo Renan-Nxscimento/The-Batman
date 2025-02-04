@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <script src="js/scripts.js" defer></script>
+    <title>El Señor de la Noche</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+              
+            <nav>
+                <img src="./midias/senorlogo.png" alt="" id="logo">
+                <div class="menumobile">
+                    <div class="mm-line"></div>
+                    <div class="mm-line"></div>
+                    <div class="mm-line"></div>
+                    <span class="close-menu invisible">Fechar menu</span>
+                        <ul class="diver-down">
+                            <li onclick="location.href='index.html'">Home</li>
+                            <li onclick="location.href='contato.html'">Contato</li>
+                            <li onclick="location.href='fotos.html'">Fotos</li>
+                            <li onclick="location.href='comentarios.html'">Comentários</li>
+                        </ul>
+                </div>
+                <ul class="main-list">
+                    <li><a href="index.html" class="page">Home</a></li>
+                    <li><a href="contato.html" class="page">Contato</a></li>
+                    <li><a href="fotos.html" class="page">Fotos</a></li>
+                    <li><a href="comentarios.html" class="page">Comentários</a></li>
+                </ul> 
+            </nav>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="./midias/senorposter.jpg" alt="">
+    </div>
+    <div class="main-container">
+        <div class="contact">
+            <h2>Contate-nos</h2>
+            <p>Adorariamos ouvir você!
+                Deixe seu feedback, ou qualquer duvida que tiver.
+                Será um prazer conversar com você!
+            </p>
+            <div class="contact-img"></div>
+        </div>
+        <div class="contact">
+            <h2>Faça uma visita</h2>
+            <p>Estamos localizados em todos os Shoppings, venha nos visitar!
+            </p>
+            <ul>
+                <li>Segunda a Sexta: das 09:00 até as 22:00</li>
+                <li>Sábado a Domingo: das 08:00 até as 23:00</li>
+            </ul>
+            <div class="visit-img"></div>
+        </div>
+        <div class="form-container">
+                <div class="f-inputs">
+                    <div class="f-input">
+                        <label for="fname">Nome:</label>
+                        <input 
+                        type="text" 
+                        id="fname" 
+                        name="fname" 
+                        placeholder="Digite seu nome"
+                        >
+                    </div>
+                    <div class="f-input">
+                        <label for="lname">Sobrenome:</label>
+                        <input 
+                        type="text" 
+                        id="lname" 
+                        name="lname" 
+                        placeholder="Digite seu sobrenome"
+                        >
+                    </div>
+                    <div class="f-input">
+                        <label for="email">E-mail:</label>
+                        <input 
+                        type="text" 
+                        id="email" 
+                        name="email" 
+                        placeholder="Digite seu E-mail"
+                        >
+                    </div>
+                    <div class="f-input">
+                        <label for="phone">Telefone:</label>
+                        <input 
+                        type="text" 
+                        id="phone"
+                        name="phone"
+                        placeholder="Digite seu número"
+                        >
+                    </div>
+                </div>
+                <div class="form-text">
+                    <div class="f-text">
+                        <textarea name="usertext" id="usertext" placeholder="Digite sua mensagem aqui"></textarea>
+                    </div>
+                </div>
+                <div class="form-btn">
+                    <input type="submit" value="Enviar">
+                </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">    
+        <span>Todos os direitos reservados. ©</span>
+        <img src="./midias/cjlogo.jpg" alt="" id="disclaimer">
+        </div>
+    </footer>
+</body>
+</html>
